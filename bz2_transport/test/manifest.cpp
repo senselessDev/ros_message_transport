@@ -1,6 +1,6 @@
 #include <ros/ros.h>
 #include <std_msgs/Header.h>
-#include <pluginlib/class_list_macros.h>
+#include <pluginlib/class_list_macros.hpp>
 #include "bz2_transport/bz2_publisher.h"
 #include "bz2_transport/bz2_subscriber.h"
 

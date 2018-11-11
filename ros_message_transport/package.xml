@@ -1,0 +1,23 @@
+<package format="2">
+    <name>ros_message_transport</name>
+    <version>0.0.1</version>
+    <description>Generic message transport plugin architecture</description>
+    <maintainer email="smagnenat@ethz.ch">Stephane Magnenat</maintainer>
+    <license>BSD</license>
+    <url>http://ros.org/wiki/ethzasl_message_transport</url>
+    
+    <buildtool_depend>catkin</buildtool_depend>
+    
+    <exec_depend>common_msgs</exec_depend> <!-- sensor_msgs -->
+    <exec_depend>pluginlib</exec_depend> <!-- pluginlib -->
+    <exec_depend>ros_comm</exec_depend>
+    <exec_depend>image_transport_plugins</exec_depend>
+    <exec_depend>ros</exec_depend>
+    <exec_depend>vision_opencv</exec_depend>
+
+    <export>
+        <metapackage />
+    </export>
+
+</package>
+

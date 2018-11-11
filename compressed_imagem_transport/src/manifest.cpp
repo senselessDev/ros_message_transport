@@ -1,4 +1,4 @@
-#include <pluginlib/class_list_macros.h>
+#include <pluginlib/class_list_macros.hpp>
 #include "compressed_imagem_transport/compressed_publisher.h"
 #include "compressed_imagem_transport/compressed_subscriber.h"
 

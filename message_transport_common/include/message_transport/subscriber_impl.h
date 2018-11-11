@@ -36,7 +36,7 @@
 *********************************************************************/
 
 #include "message_transport/subscriber_plugin.h"
-#include <pluginlib/class_loader.h>
+#include <pluginlib/class_loader.hpp>
 #include <boost/scoped_ptr.hpp>
 
 namespace message_transport {

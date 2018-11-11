@@ -1,7 +1,7 @@
 #ifndef DECLARE_ALL_TEMPLATES_H
 #define DECLARE_ALL_TEMPLATES_H
 
-#include <pluginlib/class_list_macros.h>
+#include <pluginlib/class_list_macros.hpp>
 #include <message_transport/raw_publisher.h>
 #include <message_transport/raw_subscriber.h>
 #include <sharedmem_transport/sharedmem_publisher.h>

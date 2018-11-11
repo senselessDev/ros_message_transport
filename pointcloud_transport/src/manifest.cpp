@@ -1,4 +1,4 @@
-#include <pluginlib/class_list_macros.h>
+#include <pluginlib/class_list_macros.hpp>
 #include <templated_transports/declare_all_templates.h>
 #include <pointcloud_transport_base/decimated_publisher.h>
 #include <pointcloud_transport_base/decimated_subscriber.h>

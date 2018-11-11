@@ -1,0 +1,33 @@
+<package>
+  <name>message_transport_common</name>
+  <version>0.0.1</version>
+  <description>message_transport is a generic architecture for writing object transport,
+	  similar to the message_transport architecture.</description>
+  <maintainer email="smagnenat@ethz.ch">Stephane Magnenat</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/message_transport_common</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Cedric Pradalier</author>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>pluginlib</build_depend>
+  <build_depend>message_filters</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>pluginlib</run_depend>
+  <run_depend>message_filters</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+  <!-- <test_depend>pluginlib</test_depend> -->
+  <!-- <test_depend>message_filters</test_depend> -->
+
+<export>
+    <cpp lflags="-Wl,-rpath,${prefix}/lib -L${prefix}/lib -lmessage_transport_common" cflags="-I${prefix}/include"/>
+</export>
+
+</package>

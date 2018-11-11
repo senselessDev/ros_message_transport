@@ -34,7 +34,7 @@
 
 #include "message_transport/publisher.h"
 #include "message_transport/publisher_plugin.h"
-#include <pluginlib/class_loader.h>
+#include <pluginlib/class_loader.hpp>
 #include <boost/ptr_container/ptr_vector.hpp>
 #include <boost/foreach.hpp>
 #include <boost/algorithm/string/erase.hpp>

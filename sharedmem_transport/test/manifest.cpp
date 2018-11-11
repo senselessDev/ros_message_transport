@@ -1,6 +1,6 @@
 #include <ros/ros.h>
 #include <roslib/Header.h>
-#include <pluginlib/class_list_macros.h>
+#include <pluginlib/class_list_macros.hpp>
 #include "sharedmem_transport/sharedmem_publisher.h"
 #include "sharedmem_transport/sharedmem_subscriber.h"
 

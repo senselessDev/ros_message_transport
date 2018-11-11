@@ -4,7 +4,7 @@
 
 #include <message_transport/publisher_plugin.h>
 #include <message_transport/subscriber_plugin.h>
-#include <pluginlib/class_loader.h>
+#include <pluginlib/class_loader.hpp>
 #include <boost/foreach.hpp>
 #include <boost/algorithm/string/erase.hpp>
 #include <map>
